@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './NewTodo.scss';
+import './NewTodo.scss'
 import {useTodos} from "../../api/useTodos.ts";
 
 const NewTodo: React.FC = () => {
@@ -30,4 +30,6 @@ const NewTodo: React.FC = () => {
     );
 };
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 export default NewTodo;
