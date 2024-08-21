@@ -1,0 +1,31 @@
+.new-todo {
+  margin-bottom: 20px;
+
+  .todo-form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .todo-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .todo-submit {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #218838;
+    }
+  }
+}
